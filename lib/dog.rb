@@ -12,9 +12,7 @@ class Dog
 
   def self.all
     @@all
+    binding.pry
   end
-
-  def owner=(owner)
-    @owner = owner
-  end
+  
 end
