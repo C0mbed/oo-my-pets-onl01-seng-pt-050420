@@ -9,4 +9,8 @@ class Dog
     @owner = owner
     @mood = mood
   end
+
+  def self.all
+    @@all
+  end
 end
