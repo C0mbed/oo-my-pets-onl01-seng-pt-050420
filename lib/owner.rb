@@ -25,5 +25,9 @@ class Owner
     @@all.clear
   end
 
+  def cats
+    Cats.all.select {|c| c = @name}
+  end
+
 
 end
