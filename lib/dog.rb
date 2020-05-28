@@ -13,4 +13,7 @@ class Dog
   def self.all
     @@all
   end
+
+  def owner=(owner)
+    @owner = owner
 end
