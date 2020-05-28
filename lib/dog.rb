@@ -16,4 +16,5 @@ class Dog
 
   def owner=(owner)
     @owner = owner
+  end
 end
